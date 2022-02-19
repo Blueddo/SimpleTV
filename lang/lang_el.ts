@@ -185,7 +185,7 @@
     </message>
     <message>
         <source>Long jump backward</source>
-        <translation>Μεγάλο άλμα προς τα πίσω</translation>
+        <translation>Μεγάλη μεταπήδηση προς τα πίσω</translation>
     </message>
     <message>
         <source>Fullscreen</source>
@@ -217,7 +217,7 @@
     </message>
     <message>
         <source>Digits</source>
-        <translation>Αριθμοί</translation>
+        <translation>Ψηφία</translation>
     </message>
     <message>
         <source>Channel forward (alt page up)</source>
@@ -309,7 +309,7 @@
     </message>
     <message>
         <source>Jump backward</source>
-        <translation>Αλμα προς τα πίσω</translation>
+        <translation>Μεταπήδηση πίσω</translation>
     </message>
     <message>
         <source>Exit timer</source>
@@ -433,7 +433,7 @@
     </message>
     <message>
         <source>Jump forward</source>
-        <translation>Αλμα προς τα εμπρός</translation>
+        <translation>Μεταπήδηση εμπρός</translation>
     </message>
     <message>
         <source>Deinterleys</source>
@@ -513,7 +513,7 @@
     </message>
     <message>
         <source>Long jump forward</source>
-        <translation>Μεγάλο άλμα προς τα εμπρός</translation>
+        <translation>Μεγάλη μεταπήδηση προς τα εμπρός</translation>
     </message>
     <message>
         <source>Media Information</source>
@@ -1089,7 +1089,7 @@ Faster but error-prone.</source>
     </message>
     <message>
         <source>Enable screensaver in tray mode</source>
-        <translation>Ενεργοποίηση προφύλαξης οθόνης στην περιοχή ειδοποιήσεων</translation>
+        <translation>Ενεργοποίηση της προφύλαξης οθόνης στην περιοχή ειδοποιήσεων</translation>
     </message>
     <message>
         <source>never</source>
@@ -1253,7 +1253,7 @@ Faster but error-prone.</source>
     </message>
     <message>
         <source>Hide the EPG window after selecting item in the playlist</source>
-        <translation></translation>
+        <translation>Απόκρυψη του παραθύρου EPG μετά την επιλογή στοιχείου στη λίστα αναπαραγωγής</translation>
     </message>
     <message>
         <source>MMDevice</source>
@@ -1333,7 +1333,7 @@ Faster but error-prone.</source>
     </message>
     <message>
         <source>Create crash dump in case of an error</source>
-        <translation>Δημιουργία αρχείου crash dump σε περίπτωση σφάλματος</translation>
+        <translation>Δημιουργία crash dump σε περίπτωση σφάλματος</translation>
     </message>
     <message>
         <source>Temp files</source>
@@ -1491,7 +1491,7 @@ It&apos;s useful with low CPU power but it can produce distorted pictures.</sour
     </message>
     <message>
         <source>Preload DB</source>
-        <translation>Προφόρτωση DB</translation>
+        <translation>Προφόρτωση της βάσης δεδομένων</translation>
     </message>
     <message>
         <source>Vertical alignment</source>
@@ -1560,7 +1560,7 @@ It&apos;s useful with low CPU power but it can produce distorted pictures.</sour
     </message>
     <message>
         <source>Max. value of the sleep/exit timer</source>
-        <translation>Μέγ. τιμή της αναστολής/εξοδος χρονομέτρου</translation>
+        <translation type="unfinished">Μέγ. τιμή της αναστολής/χρονοδιακόπτη εξόδου</translation>
     </message>
     <message>
         <source>control panel</source>
@@ -1735,7 +1735,7 @@ However it provides a big speedup for high definition streams.</source>
     </message>
     <message>
         <source>Enable screensaver in pause mode</source>
-        <translation>Ενεργοποίηση της προφύλαξης οθόνης σε κατάσταση παύσης</translation>
+        <translation>Ενεργοποίηση της προφύλαξης οθόνης στη λειτουργία παύσης</translation>
     </message>
     <message>
         <source>-help - show this message
@@ -1758,7 +1758,26 @@ However it provides a big speedup for high definition streams.</source>
 -qtsoftwareopengl
 -vlcconsole - open VLC console
 -simpleTVConsole  - open messages window</source>
-        <translation></translation>
+        <translation>-help - εμφάνιση αυτού του μηνύματος
+
+-close - κλείσιμο της εφαρμογής
+-closeall - διακοπή όλων των εγγραφών και κλείσιμο όλων των παρουσιών της εφαρμογής
+
+-execute luastring - εκτέλεση σεναρίου lua(luastring)
+
+-open uri
+-title string - τίτλος του καναλιού για το &apos;άνοιγμα&apos;
+
+-traymode - μετάβαση στη περιοχή ειδοποιήσεων του συστήματος μετά την εκκίνηση
+-fullscreen - εκτέλεση σε λειτουργία πλήρους οθόνης
+
+-nooneinstance - εκτέλεση περισσότερων από μία παρουσιών της εφαρμογής
+-awaymode - μη δημιουργία διακομιστή IPC, αυτή η περίπτωση θα είναι &quot;αόρατη&quot; για μια άλλη.
+-workpath path - διαδρομή προς το φάκελο εργασιών
+-compactdb - συμπίεση/επισκευή βάσης δεδομένων
+-qtsoftwareopengl
+-vlcconsole - άνοιγμα της κονσόλας VLC
+-simpleTVConsole - άνοιγμα παραθύρου μηνυμάτων</translation>
     </message>
     <message>
         <source>Toggle tray by click</source>
@@ -1766,7 +1785,7 @@ However it provides a big speedup for high definition streams.</source>
     </message>
     <message>
         <source>Hide the EPG after selecting</source>
-        <translation></translation>
+        <translation>Απόκρυψη του EPG μετά την επιλογή</translation>
     </message>
     <message>
         <source>Show EPG on clicked</source>
@@ -1778,7 +1797,7 @@ However it provides a big speedup for high definition streams.</source>
     </message>
     <message>
         <source>Event only</source>
-        <translation>Συμβάν μόνο</translation>
+        <translation>Μόνο συμβάν</translation>
     </message>
     <message>
         <source>OpenGL</source>
@@ -1798,7 +1817,7 @@ However it provides a big speedup for high definition streams.</source>
     </message>
     <message>
         <source>Executable (*.exe);All (*)</source>
-        <translation>Εκτελέσιμο αρχείο (*. exe); Όλα (*)</translation>
+        <translation>Εκτελέσιμο (*. exe); Όλα (*)</translation>
     </message>
     <message>
         <source>Circular cursor scrolling</source>
@@ -1806,7 +1825,7 @@ However it provides a big speedup for high definition streams.</source>
     </message>
     <message>
         <source>Enter the parental codes</source>
-        <translation>Εισαγάγετε τους γονικούς κωδικούς</translation>
+        <translation>Εισάγετε τους γονικούς κωδικούς</translation>
     </message>
     <message>
         <source>Repeat</source>
@@ -1838,7 +1857,7 @@ However it provides a big speedup for high definition streams.</source>
     </message>
     <message>
         <source>Random mode</source>
-        <translation>Τυχαία Λειτουργία</translation>
+        <translation>Τυχαία λειτουργία</translation>
     </message>
     <message>
         <source>System</source>
@@ -1862,7 +1881,7 @@ However it provides a big speedup for high definition streams.</source>
     </message>
     <message>
         <source>Enable the screensaver in tray mode, in any mode except - never</source>
-        <translation>Ενεργοποίηση της προφύλαξης οθόνης στην περιοχή ειδοποιήσεων, σε οποιαδήποτε κατάσταση εκτός - πάντα</translation>
+        <translation>Ενεργοποίηση της προφύλαξης οθόνης στην περιοχή ειδοποιήσεων, σε οποιαδήποτε λειτουργία εκτός από - πάντα</translation>
     </message>
     <message>
         <source>Show advanced filter</source>
@@ -1910,7 +1929,7 @@ However it provides a big speedup for high definition streams.</source>
     </message>
     <message>
         <source>Remember last opened section of the preferences</source>
-        <translation>Απομνημόνευση της τελευταίας ενότητας των προτιμήσεων</translation>
+        <translation>Απομνημόνευση της τελευταίας ανοιχτής ενότητας των προτιμήσεων</translation>
     </message>
     <message>
         <source>Restore from tray with one click</source>
@@ -1926,11 +1945,11 @@ However it provides a big speedup for high definition streams.</source>
     </message>
     <message>
         <source>None-key</source>
-        <translation>Non-key</translation>
+        <translation>None-key</translation>
     </message>
     <message>
         <source>None-ref</source>
-        <translation>Non-ref</translation>
+        <translation>None-ref</translation>
     </message>
     <message>
         <source>VAAPI X11</source>
@@ -2094,7 +2113,7 @@ However it provides a big speedup for high definition streams.</source>
     </message>
     <message>
         <source>Info panel - show always when high rate</source>
-        <translation>Πίνακας πληροφοριών - Εμφάνιση πάντα όταν είναι υψηλό ποσοστό</translation>
+        <translation>Πίνακας πληροφοριών - εμφάνιση πάντα όταν ο ρυθμός είναι υψηλός</translation>
     </message>
     <message>
         <source>DirectX settings</source>
@@ -2264,7 +2283,7 @@ Added %2 channel(s), updated %3 channel(s)</source>
     </message>
     <message>
         <source>Qiuck load (DB will be cleared before loading)</source>
-        <translation>Γρήγορη φόρτωση (η DB θα διαγραφεί πριν τη φόρτωση)</translation>
+        <translation>Γρήγορη φόρτωση (η βάση δεδομένων θα εκκαθαριστεί πριν από τη φόρτωση)</translation>
     </message>
     <message>
         <source>Max volume</source>
@@ -2324,7 +2343,7 @@ Added %2 channel(s), updated %3 channel(s)</source>
     </message>
     <message>
         <source>Max items in recent media</source>
-        <translation>Μέγιστος αριθμός στοιχείων σε άνοιγμα πρόσφατων πολυμέσων</translation>
+        <translation>Μέγιστο αριθμό στοιχείων σε άνοιγμα πρόσφατων πολυμέσων</translation>
     </message>
     <message>
         <source>Deinterlace for auto</source>
@@ -2396,7 +2415,7 @@ Added %2 channel(s), updated %3 channel(s)</source>
     </message>
     <message>
         <source>Http proxy settings for scripts</source>
-        <translation>Διακομιστής μεσολάβησης HTTP για δέσμες ενεργειών</translation>
+        <translation>Διακομιστής μεσολάβησης HTTP για scripts</translation>
     </message>
     <message>
         <source>direct3D9</source>
@@ -2552,7 +2571,7 @@ Added %2 channel(s), updated %3 channel(s)</source>
     </message>
     <message>
         <source>frame buffer GNU/Linux</source>
-        <translation>frame buffer GNU/Linux</translation>
+        <translation>ενδιάμεση μνήμη πλαισίου GNU/Linux</translation>
     </message>
     <message>
         <source>By name (desc)</source>
@@ -2683,7 +2702,7 @@ Added %2 channel(s), updated %3 channel(s)</source>
     </message>
     <message>
         <source>Favorite channels - ignore advanced filter</source>
-        <translation>Τα αγαπημένα κανάλια - παράβλεψη φίλτρων για προχωρημένους</translation>
+        <translation>Αγαπημένα κανάλια - παράβλεψη σύνθετου φίλτρου</translation>
     </message>
     <message>
         <source>Deinterlace</source>
@@ -2695,7 +2714,7 @@ Added %2 channel(s), updated %3 channel(s)</source>
     </message>
     <message>
         <source>picture (*.jpg *.jpeg *.gif *.png *.bmp *.ico);all (*)</source>
-        <translation>εικόνα (*.jpg*.jpeg *.gif*.png *.ΒΜΡ *.ico);όλα (*)</translation>
+        <translation>εικόνα (*.jpg*.jpeg *.gif*.png *.bmp *.ico);όλα (*)</translation>
     </message>
     <message>
         <source>List of additional video filters</source>
@@ -2731,7 +2750,7 @@ Added %2 channel(s), updated %3 channel(s)</source>
     </message>
     <message>
         <source>Verbose level of dump info</source>
-        <translation>Λεπτομερές επίπεδο πληροφοριών dump</translation>
+        <translation>Λεπτομερές επίπεδο αντιγραφής πληροφοριών</translation>
     </message>
     <message>
         <source>By the number of channels</source>
@@ -2875,7 +2894,7 @@ Added %2 channel(s), updated %3 channel(s)</source>
     </message>
     <message>
         <source>Network interface</source>
-        <translation>Κοινές ρυθμίσεις δικτύου</translation>
+        <translation>Διεπαφή δικτύου</translation>
     </message>
     <message>
         <source>Preset path</source>
@@ -2895,7 +2914,7 @@ Added %2 channel(s), updated %3 channel(s)</source>
     </message>
     <message>
         <source>Enable the screensaver in pause mode, in any mode except - always</source>
-        <translation>Ενεργοποίηση της προφύλαξης οθόνης σε κατάσταση παύσης, σε οποιαδήποτε κατάσταση εκτός - πάντα</translation>
+        <translation>Ενεργοποίηση της προφύλαξης οθόνης στη λειτουργία παύσης, σε οποιαδήποτε λειτουργία εκτός από - πάντα</translation>
     </message>
     <message>
         <source>Subtitle autodetection fuzziness</source>
@@ -2907,7 +2926,7 @@ Added %2 channel(s), updated %3 channel(s)</source>
     </message>
     <message>
         <source>Info panel - show always when pause</source>
-        <translation>Πίνακας πληροφορίες - Εμφάνιση πάντα όταν κάνετε παύση</translation>
+        <translation>Πίνακας πληροφοριών - εμφάνιση πάντα κατά την παύση</translation>
     </message>
     <message>
         <source>Others Options</source>
@@ -2959,7 +2978,7 @@ Added %2 channel(s), updated %3 channel(s)</source>
     </message>
     <message>
         <source>Experimental</source>
-        <translation>Πειραματική</translation>
+        <translation>Πειραματικό</translation>
     </message>
     <message>
         <source>Subtitle files</source>
@@ -3141,7 +3160,7 @@ Added %2 channel(s), updated %3 channel(s)</source>
     </message>
     <message>
         <source>Force skipping of idct to speed up decoding for frame types</source>
-        <translation>Επιβολή παράλειψης του idct για να επιταχυνθεί η αποκωδικοποίηση για τύπους καρέ</translation>
+        <translation>Επιβολή παράλειψης του idct για επιτάχυνση της αποκωδικοποίησης για τύπους καρέ</translation>
     </message>
     <message>
         <source>Diagonal gradient</source>
@@ -3205,7 +3224,7 @@ Added %2 channel(s), updated %3 channel(s)</source>
     </message>
     <message>
         <source>Quick record button - enable &apos;Start/Stop&apos; mode</source>
-        <translation>Κουμπί γρήγορης εγγραφής - ενεργοποίηση της λειτουργίας &apos;Εναρξη/διακοπή&apos;</translation>
+        <translation>Κουμπί γρήγορης εγγραφής - ενεργοποίηση της λειτουργίας &apos;Έναρξης/Διακοπής&apos;</translation>
     </message>
     <message>
         <source>Archive record</source>
@@ -3221,7 +3240,7 @@ Added %2 channel(s), updated %3 channel(s)</source>
     </message>
     <message>
         <source>Not m3u file</source>
-        <translation>Οχι αρχείο m3u</translation>
+        <translation>Δεν είναι αρχείο m3u</translation>
     </message>
     <message>
         <source>Save position</source>
@@ -3293,7 +3312,7 @@ Added %2 channel(s), updated %3 channel(s)</source>
     </message>
     <message>
         <source>Favorite channels - show group</source>
-        <translation>Τα αγαπημένα κανάλια - εμφάνιση ομάδας</translation>
+        <translation>Αγαπημένα κανάλια - εμφάνιση ομάδας</translation>
     </message>
     <message>
         <source>Executable file of lirc</source>
@@ -3301,7 +3320,7 @@ Added %2 channel(s), updated %3 channel(s)</source>
     </message>
     <message>
         <source>Fuzzy search for EPG linking</source>
-        <translation>Ασαφής αναζήτηση για σύνδεση EPG</translation>
+        <translation>Ασαφής αναζήτηση για αντιστοίχιση με EPG</translation>
     </message>
     <message>
         <source>HDMI/SPDIF audio passthrough</source>
@@ -3366,7 +3385,8 @@ Added %2 channel(s), updated %3 channel(s)</source>
     </message>
     <message>
         <source>Interval of the sleep/exit timer</source>
-        <translation>Το διάστημα της αναστολής/εξοδος χρονομέτρου</translation>
+        <translatorcomment>αναστολής/εξοδος χρονομέτρου</translatorcomment>
+        <translation>Χρονικό διάστημα αναστολής/χρονοδιακόπτη εξόδου</translation>
     </message>
     <message>
         <source>Playlist settings</source>
@@ -4835,7 +4855,7 @@ D - βρέθηκε drm</translation>
     </message>
     <message>
         <source>Long skip forward</source>
-        <translation>Μεγάλη παράλειψη προς τα μπροστά</translation>
+        <translation>Μεγάλη παράλειψη προς τα εμπρός</translation>
     </message>
     <message>
         <source>Open Preferences</source>
@@ -6375,7 +6395,7 @@ Create new ?</source>
     <name>Playlist::View::CTreeDelegate</name>
     <message>
         <source>empty</source>
-        <translation>Αδειο</translation>
+        <translation>αδειο</translation>
     </message>
     <message>
         <source>Updating...</source>
@@ -6402,7 +6422,7 @@ Create new ?</source>
     </message>
     <message>
         <source>Linking epg to channels</source>
-        <translation>Σύνδεση του προγράμματος με τα κανάλια</translation>
+        <translation>Αντιστοίχιση του προγράμματος με τα κανάλια</translation>
     </message>
     <message>
         <source>Epg update failed: see log for details</source>
