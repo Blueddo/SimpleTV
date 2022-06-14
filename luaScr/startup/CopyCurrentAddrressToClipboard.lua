@@ -4,7 +4,7 @@
 			and m_simpleTV.Control.CurrentAddress ~= ''
 		then
 			m_simpleTV.Interface.CopyToClipboard(m_simpleTV.Control.CurrentAdress)
-			m_simpleTV.OSD.ShowMessageT({text = 'Η τρέχουσα διεύθυνση αντιγράφηκε', color = 0xff00dd00, showTime = 1000 * 5, id = 'channelName'})
+			m_simpleTV.OSD.ShowMessageT({text = 'Η τρέχουσα διεύθυνση αντιγράφηκε\n' ..  m_simpleTV.Control.CurrentAdress, color = 0xff00dd00, showTime = 1000 * 5, id = 'channelName'})
 -- debug_in_file(m_simpleTV.Control.RealAddress .. '\n')
 		end
 	end
