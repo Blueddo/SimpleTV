@@ -4,12 +4,12 @@
 <context>
     <name>Action::CActionManager</name>
     <message>
-        <location filename="source/actionmanager/actionmanager.cpp" line="172"/>
+        <location filename="source/actionmanager/actionmanager.cpp" line="173"/>
         <source>Lirc is on</source>
         <translation>Το Lirc είναι ενεργοποιημένο</translation>
     </message>
     <message>
-        <location filename="source/actionmanager/actionmanager.cpp" line="172"/>
+        <location filename="source/actionmanager/actionmanager.cpp" line="173"/>
         <source>Lirc is off</source>
         <translation>Το Lirc είναι απενεργοποιημένο</translation>
     </message>
@@ -894,23 +894,23 @@
         <translation>Ετικέτα κειμένου</translation>
     </message>
     <message>
-        <location filename="source/theapp/about/aboutwindow.cpp" line="32"/>
+        <location filename="source/theapp/about/aboutwindow.cpp" line="38"/>
         <source>based on VLC</source>
         <translation>με βάση το VLC</translation>
     </message>
     <message>
-        <location filename="source/theapp/about/aboutwindow.cpp" line="34"/>
+        <location filename="source/theapp/about/aboutwindow.cpp" line="40"/>
         <source>original</source>
         <comment>maybe like this: &lt;b&gt;Current language: xxx, translation by &lt;a href=&apos;http://someAddress.html&apos;&gt;Some Name&lt;/a&gt;&lt;/b&gt;&lt;br&gt;</comment>
         <translation>&lt;b&gt;Γλώσσα: Ελληνικα, μετάφραση από Blueddo 2017 &lt;a href=&apos;https://github.com/Blueddo/SimpleTV&apos;&gt;Home Page&lt;/a&gt;&lt;/b&gt;&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="source/theapp/about/aboutwindow.cpp" line="40"/>
+        <location filename="source/theapp/about/aboutwindow.cpp" line="46"/>
         <source>Home page - </source>
         <translation>Αρχική σελίδα - </translation>
     </message>
     <message>
-        <location filename="source/theapp/about/aboutwindow.cpp" line="41"/>
+        <location filename="source/theapp/about/aboutwindow.cpp" line="47"/>
         <source>(for site and tracker thanks Gen12)</source>
         <translation>(για τον ιστότοπο και τον tracker ευχαριστίες Gen12)</translation>
     </message>
@@ -2164,74 +2164,87 @@
     </message>
     <message>
         <location filename="forms/cplaylistloadviewm3u.ui" line="154"/>
-        <source>Advanced filter</source>
-        <translation>Σύνθετο φίλτρο</translation>
+        <source>Advanced filter(playlist name)</source>
+        <oldsource>Advanced filter(playlist name) </oldsource>
+        <translation>Σύνθετο φίλτρο (όνομα λίστας αναπαραγωγής)</translation>
     </message>
     <message>
-        <location filename="forms/cplaylistloadviewm3u.ui" line="201"/>
+        <location filename="forms/cplaylistloadviewm3u.ui" line="208"/>
         <source>Auto search the EPG</source>
         <oldsource>Autosearch EPG</oldsource>
         <translation>Αυτόματη αναζήτηση προγράμματος</translation>
     </message>
     <message>
-        <location filename="forms/cplaylistloadviewm3u.ui" line="219"/>
+        <location filename="forms/cplaylistloadviewm3u.ui" line="226"/>
         <source>Auto search a logos</source>
         <oldsource>Autosearch logos</oldsource>
         <translation>Αυτόματη αναζήτηση λογότυπων</translation>
     </message>
     <message>
-        <location filename="forms/cplaylistloadviewm3u.ui" line="226"/>
-        <source>Use  url-tvg, tvg-id tags</source>
-        <translation>Χρήση ετικετών  url-tvg, tvg-id</translation>
+        <location filename="forms/cplaylistloadviewm3u.ui" line="233"/>
+        <source>use  url-tvg, tvg-id tags from playlist</source>
+        <oldsource>Use  url-tvg, tvg-id tags</oldsource>
+        <translation>χρήση ετικετών url-tvg, tvg-id από λίστα αναπαραγωγής</translation>
     </message>
     <message>
-        <location filename="forms/cplaylistloadviewm3u.ui" line="237"/>
+        <location filename="forms/cplaylistloadviewm3u.ui" line="236"/>
+        <source>Use  EPG from playlist</source>
+        <translation>Χρήση  EPG από λίστα αναπαραγωγής</translation>
+    </message>
+    <message>
+        <location filename="forms/cplaylistloadviewm3u.ui" line="247"/>
         <source>Loading the channels serial numbers from m3u</source>
         <translation>Φόρτωση των σειριακών αριθμών καναλιών από M3U</translation>
     </message>
     <message>
-        <location filename="forms/cplaylistloadviewm3u.ui" line="244"/>
+        <location filename="forms/cplaylistloadviewm3u.ui" line="254"/>
         <source>Use local logos only</source>
         <translation>Χρήση μόνο τοπικών λογότυπων</translation>
     </message>
     <message>
-        <location filename="forms/cplaylistloadviewm3u.ui" line="208"/>
+        <location filename="forms/cplaylistloadviewm3u.ui" line="215"/>
         <source>Loading group</source>
         <translation>Φόρτωση ομάδας</translation>
     </message>
     <message>
-        <location filename="forms/cplaylistloadviewm3u.ui" line="255"/>
+        <location filename="forms/cplaylistloadviewm3u.ui" line="272"/>
         <source>Text encoding</source>
         <translation>Κωδικοποίηση κειμένου</translation>
     </message>
     <message>
-        <location filename="forms/cplaylistloadviewm3u.ui" line="277"/>
-        <source>Generate UpdateID (only if the advanced filter is specified)</source>
-        <translation>Δημιουργία UpdateID (μόνο εάν έχει καθοριστεί το σύνθετο φίλτρο)</translation>
+        <location filename="forms/cplaylistloadviewm3u.ui" line="294"/>
+        <source>Creates a unique code for each channel, by which it will update / delete channels in the future</source>
+        <translation>Δημιουργεί έναν μοναδικό κωδικό για κάθε κανάλι, με τον οποίο θα ενημερώνει/διαγράφει τα κανάλια στο μέλλον</translation>
     </message>
     <message>
-        <location filename="forms/cplaylistloadviewm3u.ui" line="284"/>
+        <location filename="forms/cplaylistloadviewm3u.ui" line="297"/>
+        <source>Generate UpdateID (only if the advanced filter(playlist name) is specified)</source>
+        <oldsource>Generate UpdateID (only if the advanced filter is specified)</oldsource>
+        <translation>Δημιουργία UpdateID (μόνο αν έχει καθοριστεί το προηγμένο φίλτρο (όνομα λίστας αναπαραγωγής)</translation>
+    </message>
+    <message>
+        <location filename="forms/cplaylistloadviewm3u.ui" line="304"/>
         <source>Delete missing channels by UpdateID</source>
         <translation>Διαγραφή καναλιών που λείπουν από το UpdateID</translation>
     </message>
     <message>
-        <location filename="forms/cplaylistloadviewm3u.ui" line="298"/>
+        <location filename="forms/cplaylistloadviewm3u.ui" line="318"/>
         <source>If the data exists</source>
         <translation>Εάν τα δεδομένα υπάρχουν</translation>
     </message>
     <message>
-        <location filename="forms/cplaylistloadviewm3u.ui" line="335"/>
+        <location filename="forms/cplaylistloadviewm3u.ui" line="355"/>
         <source>Skip duplicates in the loading playlist</source>
         <oldsource>Skip duplicates</oldsource>
         <translation>Παράλειψη διπλότυπων στη λίστα αναπαραγωγής με δυνατότητα λήψης</translation>
     </message>
     <message>
-        <location filename="forms/cplaylistloadviewm3u.ui" line="357"/>
+        <location filename="forms/cplaylistloadviewm3u.ui" line="377"/>
         <source>Name</source>
         <translation>Όνομα</translation>
     </message>
     <message>
-        <location filename="forms/cplaylistloadviewm3u.ui" line="364"/>
+        <location filename="forms/cplaylistloadviewm3u.ui" line="384"/>
         <source>Address</source>
         <translation>Διεύθυνση</translation>
     </message>
@@ -2970,7 +2983,7 @@ Restart now?</source>
 <context>
     <name>Config::View::Epg::CConfigEpgItem</name>
     <message>
-        <location filename="source/config/view/widgets/epg/configepg.cpp" line="177"/>
+        <location filename="source/config/view/widgets/epg/configepg.cpp" line="188"/>
         <source>Create new DB file(need restart application)?</source>
         <translation>Δημιουργία νέου αρχείου DB (χρειάζεται επανεκκίνηση εφαρμογής);</translation>
     </message>
@@ -3096,7 +3109,7 @@ To restore the default, double-click the right mouse button</source>
         <translation>κενή βάση δεδομένων. περιμένετε... </translation>
     </message>
     <message>
-        <location filename="source/misc/db/basedb.cpp" line="54"/>
+        <location filename="source/misc/db/basedb.cpp" line="56"/>
         <source>database preloading. wait... </source>
         <translation>προφόρτωση βάσης δεδομένων. Περίμενε... </translation>
     </message>
@@ -3104,12 +3117,12 @@ To restore the default, double-click the right mouse button</source>
 <context>
     <name>DB::CBaseDb</name>
     <message>
-        <location filename="source/misc/db/basedb.cpp" line="137"/>
+        <location filename="source/misc/db/basedb.cpp" line="139"/>
         <source>File </source>
         <translation>Αρχείο </translation>
     </message>
     <message>
-        <location filename="source/misc/db/basedb.cpp" line="137"/>
+        <location filename="source/misc/db/basedb.cpp" line="139"/>
         <source> not exist.
 Create new ?</source>
         <translation> δεν υπάρχει.
@@ -3119,27 +3132,27 @@ Create new ?</source>
 <context>
     <name>Epg::CEpg</name>
     <message>
-        <location filename="source/epg/epg.cpp" line="90"/>
+        <location filename="source/epg/epg.cpp" line="104"/>
         <source> - updating in progress</source>
         <translation> - ενημέρωση σε εξέλιξη</translation>
     </message>
     <message>
-        <location filename="source/epg/epg.cpp" line="182"/>
+        <location filename="source/epg/epg.cpp" line="195"/>
         <source>Cleaning EPG DB</source>
         <translation>Καθαρισμός δεδομένων προγράμματος EPG DB</translation>
     </message>
     <message>
-        <location filename="source/epg/epg.cpp" line="194"/>
+        <location filename="source/epg/epg.cpp" line="207"/>
         <source>EPG DB clearing.Wait...</source>
         <translation>EPG DB Καθαρισμός δεδομένων.Περιμένετε...</translation>
     </message>
     <message>
-        <location filename="source/epg/epg.cpp" line="379"/>
+        <location filename="source/epg/epg.cpp" line="406"/>
         <source>EPG update aborted</source>
         <translation>Η ενημέρωση του προγράμματος EPG ματαιώθηκε</translation>
     </message>
     <message>
-        <location filename="source/epg/epg.cpp" line="444"/>
+        <location filename="source/epg/epg.cpp" line="471"/>
         <source>EPG DB corrupted. Restart application for recovery?</source>
         <translation>Το EPG DB είναι κατεστραμμένο. Επανεκκίνηση της εφαρμογής για ανάκτηση;</translation>
     </message>
@@ -3175,74 +3188,81 @@ Create new ?</source>
         <translation>Απέτυχε η ενημέρωση του προγράμματος: Δείτε το αρχείο καταγραφής για λεπτομέρειες</translation>
     </message>
     <message>
-        <location filename="source/epg/updater/epgupdater.cpp" line="95"/>
+        <location filename="source/epg/updater/epgupdater.cpp" line="99"/>
         <source>EPG update starting...</source>
         <translation>Εναρξη ενημέρωσης προγράμματος...</translation>
     </message>
     <message>
-        <location filename="source/epg/updater/epgupdater.cpp" line="185"/>
+        <location filename="source/epg/updater/epgupdater.cpp" line="191"/>
         <source>EPG update finished</source>
         <translation>Η Ενημέρωση του προγράμματος ολοκληρώθηκε</translation>
     </message>
     <message>
+        <location filename="source/epg/updater/epgupdater.cpp" line="207"/>
         <source>delete old records</source>
-        <translation type="vanished">διαγραφή παλαιών εγγραφών</translation>
+        <translation>διαγραφή παλαιών εγγραφών</translation>
     </message>
     <message>
+        <location filename="source/epg/updater/epgupdater.cpp" line="220"/>
         <source>db loaded %1%</source>
         <oldsource>db loading progress %1%</oldsource>
-        <translation type="vanished">db φορτώθηκε %1%</translation>
+        <translation>db φορτώθηκε %1%</translation>
     </message>
     <message>
+        <location filename="source/epg/updater/epgupdater.cpp" line="222"/>
         <source>db loaded %1</source>
         <oldsource>db loaded %1kb</oldsource>
-        <translation type="vanished">db φορτώθηκε %1</translation>
+        <translation>db φορτώθηκε %1</translation>
     </message>
     <message>
+        <location filename="source/epg/updater/epgupdater.cpp" line="236"/>
         <source>xml parsing %1%</source>
-        <translation type="vanished">ανάλυση xml %1%</translation>
+        <translation>ανάλυση xml %1%</translation>
     </message>
     <message>
+        <location filename="source/epg/updater/epgupdater.cpp" line="238"/>
         <source>xml parsing %1kb</source>
-        <translation type="vanished">ανάλυση xml %1kb</translation>
+        <translation>ανάλυση xml %1kb</translation>
     </message>
     <message>
+        <location filename="source/epg/updater/epgupdater.cpp" line="253"/>
         <source>downloaded %1%</source>
         <oldsource>download %1%</oldsource>
-        <translation type="vanished">λήψη %1%</translation>
+        <translation>λήψη %1%</translation>
     </message>
     <message>
+        <location filename="source/epg/updater/epgupdater.cpp" line="255"/>
         <source>downloaded %1kb</source>
         <oldsource>download %1kb</oldsource>
-        <translation type="vanished">κατέβηκαν %1kb</translation>
+        <translation>κατέβηκαν %1kb</translation>
     </message>
     <message>
-        <location filename="source/epg/updater/epgupdater.cpp" line="200"/>
+        <location filename="source/epg/updater/epgupdater.cpp" line="301"/>
         <source>processing</source>
         <translation>επεξεργασία</translation>
     </message>
     <message>
-        <location filename="source/epg/updater/epgupdater.cpp" line="237"/>
+        <location filename="source/epg/updater/epgupdater.cpp" line="339"/>
         <source>success,not modified</source>
         <translation>επιτυχής,δεν τροποποιήθηκε</translation>
     </message>
     <message>
-        <location filename="source/epg/updater/epgupdater.cpp" line="283"/>
+        <location filename="source/epg/updater/epgupdater.cpp" line="387"/>
         <source>success</source>
         <translation>επιτυχής</translation>
     </message>
     <message>
-        <location filename="source/epg/updater/epgupdater.cpp" line="288"/>
+        <location filename="source/epg/updater/epgupdater.cpp" line="392"/>
         <source>canceled</source>
         <translation>ακυρώθηκε</translation>
     </message>
     <message>
-        <location filename="source/epg/updater/epgupdater.cpp" line="343"/>
+        <location filename="source/epg/updater/epgupdater.cpp" line="447"/>
         <source>can&apos;t create temp folder</source>
         <translation>δεν μπορεί να δημιουργηθεί φάκελος προσωρινών αρχείων</translation>
     </message>
     <message>
-        <location filename="source/epg/updater/epgupdater.cpp" line="451"/>
+        <location filename="source/epg/updater/epgupdater.cpp" line="265"/>
         <source>Linking epg to channels</source>
         <translation>Αντιστοίχιση του προγράμματος με τα κανάλια</translation>
     </message>
@@ -3258,27 +3278,27 @@ Create new ?</source>
 <context>
     <name>Mainframe::CMainFrame</name>
     <message>
-        <location filename="source/mainframe/mainframe.cpp" line="1185"/>
+        <location filename="source/mainframe/mainframe.cpp" line="1198"/>
         <source>Stop</source>
         <translation>Διακοπή</translation>
     </message>
     <message>
-        <location filename="source/mainframe/mainframe.cpp" line="1192"/>
+        <location filename="source/mainframe/mainframe.cpp" line="1205"/>
         <source>Previous channel/media</source>
         <translation>Προηγούμενο κανάλι/πολυμέσο</translation>
     </message>
     <message>
-        <location filename="source/mainframe/mainframe.cpp" line="1199"/>
+        <location filename="source/mainframe/mainframe.cpp" line="1212"/>
         <source>Play / pause</source>
         <translation>Αναπαραγωγή / παύση</translation>
     </message>
     <message>
-        <location filename="source/mainframe/mainframe.cpp" line="1206"/>
+        <location filename="source/mainframe/mainframe.cpp" line="1219"/>
         <source>Next channel/media</source>
         <translation>Επόμενο κανάλι/πολυμέσο</translation>
     </message>
     <message>
-        <location filename="source/mainframe/mainframe.cpp" line="1213"/>
+        <location filename="source/mainframe/mainframe.cpp" line="1226"/>
         <source>Mute</source>
         <translation>Σίγαση</translation>
     </message>
@@ -3350,7 +3370,7 @@ Create new ?</source>
 <context>
     <name>Menu::CChannelsMenu</name>
     <message>
-        <location filename="source/mainmenu/channelsmenu/channelsmenu.cpp" line="412"/>
+        <location filename="source/mainmenu/channelsmenu/channelsmenu.cpp" line="485"/>
         <source>Favorite channels/media</source>
         <translation>Αγαπημένα κανάλια/πολυμέσα</translation>
     </message>
@@ -3358,32 +3378,32 @@ Create new ?</source>
 <context>
     <name>Osd::COsd</name>
     <message>
-        <location filename="source/osd/mainosd/osd.cpp" line="1102"/>
+        <location filename="source/osd/mainosd/osd.cpp" line="1134"/>
         <source>Subtitle track</source>
         <translation>Κομμάτι υπότιτλου</translation>
     </message>
     <message>
-        <location filename="source/osd/mainosd/osd.cpp" line="1113"/>
+        <location filename="source/osd/mainosd/osd.cpp" line="1145"/>
         <source>Audio track</source>
         <translation>Κομμάτι ήχου</translation>
     </message>
     <message>
-        <location filename="source/osd/mainosd/osd.cpp" line="1124"/>
+        <location filename="source/osd/mainosd/osd.cpp" line="1156"/>
         <source>Video track</source>
         <translation>Κομμάτι βίντεο</translation>
     </message>
     <message>
-        <location filename="source/osd/mainosd/osd.cpp" line="1256"/>
+        <location filename="source/osd/mainosd/osd.cpp" line="1289"/>
         <source>Deinterlace</source>
         <translation>Αποδιαπλοκή</translation>
     </message>
     <message>
-        <location filename="source/osd/mainosd/osd.cpp" line="1267"/>
+        <location filename="source/osd/mainosd/osd.cpp" line="1300"/>
         <source>Ratio</source>
         <translation>Αναλογία</translation>
     </message>
     <message>
-        <location filename="source/osd/mainosd/osd.cpp" line="1278"/>
+        <location filename="source/osd/mainosd/osd.cpp" line="1311"/>
         <source>Crop</source>
         <translation>Περικοπή</translation>
     </message>
@@ -3450,14 +3470,14 @@ Create new ?</source>
 <context>
     <name>Osd::COsdChannelInfo</name>
     <message>
-        <location filename="source/osd/mainosd/widgets/channelinfo/osdchannelinfo.cpp" line="772"/>
+        <location filename="source/osd/mainosd/widgets/channelinfo/osdchannelinfo.cpp" line="777"/>
         <source>none</source>
         <translation>καθόλου</translation>
     </message>
     <message>
-        <location filename="source/osd/mainosd/widgets/channelinfo/osdchannelinfo.cpp" line="877"/>
-        <location filename="source/osd/mainosd/widgets/channelinfo/osdchannelinfo.cpp" line="894"/>
-        <location filename="source/osd/mainosd/widgets/channelinfo/osdchannelinfo.cpp" line="895"/>
+        <location filename="source/osd/mainosd/widgets/channelinfo/osdchannelinfo.cpp" line="882"/>
+        <location filename="source/osd/mainosd/widgets/channelinfo/osdchannelinfo.cpp" line="899"/>
+        <location filename="source/osd/mainosd/widgets/channelinfo/osdchannelinfo.cpp" line="900"/>
         <source>kb/s</source>
         <translation>kb/s</translation>
     </message>
@@ -3473,58 +3493,58 @@ Create new ?</source>
 <context>
     <name>Osd::COsdEpg</name>
     <message>
-        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="19"/>
+        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="20"/>
         <source>Time</source>
         <translation>Διάρκεια</translation>
     </message>
     <message>
-        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="19"/>
+        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="20"/>
         <source>Title</source>
         <translation>Τίτλος</translation>
     </message>
     <message>
-        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="19"/>
+        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="20"/>
         <source>Category</source>
         <translation>Κατηγορία</translation>
     </message>
     <message>
-        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="19"/>
+        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="20"/>
         <source>Duration</source>
         <translation>Διάρκεια</translation>
     </message>
     <message>
-        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="66"/>
+        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="67"/>
         <source>Stop -  Set alert</source>
         <translation>Διακοπή - Ορισμός ειδοποίησης</translation>
     </message>
     <message>
-        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="73"/>
+        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="74"/>
         <source>Record</source>
         <translation>Εγγραφή</translation>
     </message>
     <message>
-        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="78"/>
+        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="79"/>
         <source>Ok - description</source>
         <translation>OK - Περιγραφή</translation>
     </message>
     <message>
-        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="459"/>
+        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="462"/>
         <source>EPG</source>
         <translation>EPG</translation>
     </message>
     <message>
-        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="613"/>
+        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="616"/>
         <source>Play - Start play</source>
         <translation>Αναπαραγωγή - Εναρξη αναπαραγωγής</translation>
     </message>
     <message>
-        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="59"/>
-        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="635"/>
+        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="60"/>
+        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="638"/>
         <source>Play - Set timer</source>
         <translation>Αναπαραγωγή - Ρύθμιση χρονοδιακόπτη</translation>
     </message>
     <message>
-        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="645"/>
+        <location filename="source/osd/mainosd/widgets/epg/osdepg.cpp" line="648"/>
         <source>Play - Delete timer</source>
         <translation>Αναπαραγωγή - Διαγραφή χρονοδιακόπτη</translation>
     </message>
@@ -3571,7 +3591,7 @@ Create new ?</source>
 <context>
     <name>Osd::COsdPlaylist</name>
     <message>
-        <location filename="source/osd/mainosd/widgets/playlist/osdplaylist.cpp" line="354"/>
+        <location filename="source/osd/mainosd/widgets/playlist/osdplaylist.cpp" line="379"/>
         <source>Playlist</source>
         <translation>Λίστα</translation>
     </message>
@@ -3609,12 +3629,12 @@ Create new ?</source>
         <translation>EPG</translation>
     </message>
     <message>
-        <location filename="source/osd/mainosd/widgets/scheduler/osdscheduler.cpp" line="39"/>
+        <location filename="source/osd/mainosd/widgets/scheduler/osdscheduler.cpp" line="40"/>
         <source>Stop -  Delete timer</source>
         <translation>Διακοπή - Διαγραφή χρονοδιακόπτη</translation>
     </message>
     <message>
-        <location filename="source/osd/mainosd/widgets/scheduler/osdscheduler.cpp" line="47"/>
+        <location filename="source/osd/mainosd/widgets/scheduler/osdscheduler.cpp" line="48"/>
         <source>Play -  Pause/resume record</source>
         <translation>Αναπαραγωγή - Παύση/Συνέχιση εγγραφής</translation>
     </message>
@@ -3798,26 +3818,22 @@ Create new ?</source>
 <context>
     <name>Osd::CTreeOsd</name>
     <message>
-        <location filename="source/osd/mainosd/widgets/playlist/tree/treeosd.cpp" line="199"/>
+        <location filename="source/osd/mainosd/widgets/playlist/tree/treeosd.cpp" line="202"/>
         <source>Move to group</source>
         <translation>Μετακίνηση σε ομάδα</translation>
     </message>
     <message>
-        <location filename="source/osd/mainosd/widgets/playlist/tree/treeosd.cpp" line="203"/>
-        <source>To the root</source>
-        <translation>Εκτός ομάδας</translation>
-    </message>
-    <message>
-        <location filename="source/osd/mainosd/widgets/playlist/tree/treeosd.cpp" line="221"/>
+        <location filename="source/osd/mainosd/widgets/playlist/tree/treeosd.cpp" line="218"/>
         <source>Add file</source>
         <translation>Προσθήκη αρχείου</translation>
     </message>
     <message>
-        <location filename="source/osd/mainosd/widgets/playlist/tree/treeosd.cpp" line="222"/>
+        <location filename="source/osd/mainosd/widgets/playlist/tree/treeosd.cpp" line="219"/>
         <source>Add folder</source>
         <translation>Προσθήκη φακέλου</translation>
     </message>
     <message>
+        <location filename="source/osd/mainosd/widgets/playlist/tree/treeosd.cpp" line="221"/>
         <location filename="source/osd/mainosd/widgets/playlist/tree/treeosd.cpp" line="223"/>
         <source>Open folder</source>
         <translation>Άνοιγμα φακέλου</translation>
@@ -4217,22 +4233,22 @@ Create new ?</source>
         <translation>Δεν βρέθηκε αριθμός</translation>
     </message>
     <message>
-        <location filename="source/playlist/playlist.cpp" line="631"/>
+        <location filename="source/playlist/playlist.cpp" line="637"/>
         <source>Added to favorites: </source>
         <translation>Προστέθηκε στα αγαπημένα: </translation>
     </message>
     <message>
-        <location filename="source/playlist/playlist.cpp" line="632"/>
+        <location filename="source/playlist/playlist.cpp" line="638"/>
         <source>Removed from favorites: </source>
         <translation>Αφαιρέθηκε από τα αγαπημένα: </translation>
     </message>
     <message>
-        <location filename="source/playlist/playlist.cpp" line="880"/>
+        <location filename="source/playlist/playlist.cpp" line="886"/>
         <source>The playlist update will start after the EPG update is completed</source>
         <translation>Η ενημέρωση της λίστας αναπαραγωγής θα ξεκινήσει αφού ολοκληρωθεί η ενημέρωση του προγράμματος EPG</translation>
     </message>
     <message>
-        <location filename="source/playlist/playlist.cpp" line="930"/>
+        <location filename="source/playlist/playlist.cpp" line="936"/>
         <source>Bookmark added</source>
         <translation>Προσθήκη σελιδοδείκτη</translation>
     </message>
@@ -4263,7 +4279,7 @@ Create new ?</source>
 <context>
     <name>Playlist::Thumbnail::CThumbnail</name>
     <message>
-        <location filename="source/playlist/thumbnail/thumbnail.cpp" line="160"/>
+        <location filename="source/playlist/thumbnail/thumbnail.cpp" line="168"/>
         <source>Thumbnails cache cleared</source>
         <translation>Εκκαθάριση της προσωρινής μνήμης μικρογραφιών</translation>
     </message>
@@ -4326,17 +4342,17 @@ Create new ?</source>
         <translation>Κυρ</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/epg/channelepg.cpp" line="597"/>
+        <location filename="source/playlist/view/standalone/widget/epg/channelepg.cpp" line="599"/>
         <source>Epg filter - search current</source>
         <translation>Φίλτρο Epg - τρέχουσα αναζήτηση</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/epg/channelepg.cpp" line="602"/>
+        <location filename="source/playlist/view/standalone/widget/epg/channelepg.cpp" line="604"/>
         <source>Epg filter - search current and future</source>
         <translation>Φίλτρο EPG - τρέχουσα και μελλοντική αναζήτηση</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/epg/channelepg.cpp" line="608"/>
+        <location filename="source/playlist/view/standalone/widget/epg/channelepg.cpp" line="610"/>
         <source>Epg filter - search everywhere</source>
         <translation>Φίλτρο EPG - αναζήτηση παντού</translation>
     </message>
@@ -4379,10 +4395,11 @@ Create new ?</source>
         <location filename="source/playlist/view/standalone/widget/settings/channelsettings.cpp" line="618"/>
         <location filename="source/playlist/view/standalone/widget/settings/channelsettings.cpp" line="657"/>
         <location filename="source/playlist/view/standalone/widget/settings/channelsettings.cpp" line="731"/>
-        <location filename="source/playlist/view/standalone/widget/settings/channelsettings.cpp" line="774"/>
-        <location filename="source/playlist/view/standalone/widget/settings/channelsettings.cpp" line="848"/>
-        <location filename="source/playlist/view/standalone/widget/settings/channelsettings.cpp" line="889"/>
-        <location filename="source/playlist/view/standalone/widget/settings/channelsettings.cpp" line="1030"/>
+        <location filename="source/playlist/view/standalone/widget/settings/channelsettings.cpp" line="761"/>
+        <location filename="source/playlist/view/standalone/widget/settings/channelsettings.cpp" line="795"/>
+        <location filename="source/playlist/view/standalone/widget/settings/channelsettings.cpp" line="869"/>
+        <location filename="source/playlist/view/standalone/widget/settings/channelsettings.cpp" line="910"/>
+        <location filename="source/playlist/view/standalone/widget/settings/channelsettings.cpp" line="1058"/>
         <source>working...</source>
         <translation>εργάζεται...</translation>
     </message>
@@ -4407,12 +4424,12 @@ Create new ?</source>
         <translation>όλα τα αρχεία(*.*)</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/settings/channelsettings.cpp" line="841"/>
+        <location filename="source/playlist/view/standalone/widget/settings/channelsettings.cpp" line="862"/>
         <source>Start with the number</source>
         <translation>Ξεκινήστε με τον αριθμό</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/settings/channelsettings.cpp" line="873"/>
+        <location filename="source/playlist/view/standalone/widget/settings/channelsettings.cpp" line="894"/>
         <source>Select more than one channel</source>
         <translation>Επιλέξτε περισσότερα από ένα κανάλι</translation>
     </message>
@@ -4502,9 +4519,9 @@ Create new ?</source>
         <translation>Εμφάνιση μόνο&apos;Όλα&apos;</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/extfilter/extfilter.cpp" line="281"/>
-        <location filename="source/playlist/view/standalone/widget/extfilter/extfilter.cpp" line="312"/>
-        <location filename="source/playlist/view/standalone/widget/extfilter/extfilter.cpp" line="337"/>
+        <location filename="source/playlist/view/standalone/widget/extfilter/extfilter.cpp" line="299"/>
+        <location filename="source/playlist/view/standalone/widget/extfilter/extfilter.cpp" line="330"/>
+        <location filename="source/playlist/view/standalone/widget/extfilter/extfilter.cpp" line="355"/>
         <source>Are you sure?</source>
         <translation>Είσαι σίγουρος?</translation>
     </message>
@@ -4539,59 +4556,65 @@ Create new ?</source>
 <context>
     <name>Playlist::View::CPlaylistLoadViewM3u</name>
     <message>
-        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="22"/>
+        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="25"/>
         <source>Skip if the same</source>
         <translation>Παράλειψη αν είναι ίδια</translation>
     </message>
     <message>
-        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="23"/>
+        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="26"/>
         <source>Update if the same</source>
         <translation>Ενημέρωση εάν είναι ίδια</translation>
     </message>
     <message>
-        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="24"/>
+        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="27"/>
         <source>Loading as a new</source>
         <translation>Φόρτωση ως νέα</translation>
     </message>
     <message>
-        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="26"/>
+        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="29"/>
         <source>Auto</source>
         <translation>Αυτόματα</translation>
     </message>
     <message>
-        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="27"/>
+        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="30"/>
         <source>Not unicode(8-bits charset)</source>
         <translation>Όχι unicode(8-bits charset)</translation>
     </message>
     <message>
-        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="28"/>
+        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="31"/>
         <source>Utf-8</source>
         <translation>Utf-8</translation>
     </message>
     <message>
-        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="29"/>
+        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="32"/>
         <source>Utf-16</source>
         <translation>Utf-16</translation>
     </message>
     <message>
-        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="42"/>
+        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="47"/>
         <source>Load from m&amp;3u</source>
         <translation>Φόρτωση από m&amp;3u</translation>
     </message>
     <message>
-        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="47"/>
+        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="52"/>
         <source>Open m3u file</source>
         <translation>Άνοιγμα αρχείου M3U</translation>
     </message>
     <message>
-        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="53"/>
+        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="58"/>
         <source>Playlist files</source>
         <translation>Αρχεία λίστας αναπαραγωγής</translation>
     </message>
     <message>
-        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="54"/>
+        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="59"/>
         <source>All</source>
         <translation>Όλα</translation>
+    </message>
+    <message>
+        <location filename="source/playlist/load/view/m3u/playlistloadviewm3u.cpp" line="169"/>
+        <source>Enter advanced filter name(playlist name)</source>
+        <oldsource>Enter advanced filter name</oldsource>
+        <translation>Εισάγετε το όνομα του προηγμένου φίλτρου (όνομα λίστας αναπαραγωγής)</translation>
     </message>
 </context>
 <context>
@@ -4706,7 +4729,7 @@ Create new ?</source>
 <context>
     <name>Playlist::View::CStandAlonePlayListView</name>
     <message>
-        <location filename="source/playlist/view/standalone/widget/standaloneplaylistview.cpp" line="524"/>
+        <location filename="source/playlist/view/standalone/widget/standaloneplaylistview.cpp" line="558"/>
         <source>Playlist</source>
         <translation>Λίστα</translation>
     </message>
@@ -4766,7 +4789,7 @@ Create new ?</source>
         <translation>Επιλογή καναλιών</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treecontroller.cpp" line="302"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treecontroller.cpp" line="301"/>
         <source>working...</source>
         <translation>εργάζεται...</translation>
     </message>
@@ -4774,22 +4797,27 @@ Create new ?</source>
 <context>
     <name>Playlist::View::CTreeDelegate</name>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/painter/delegate/treedelegate.cpp" line="485"/>
+        <location filename="source/playlist/view/standalone/widget/tree/painter/delegate/treedelegate.cpp" line="496"/>
         <source>empty</source>
         <translation>άδειο</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/painter/delegate/treedelegate.cpp" line="486"/>
+        <location filename="source/playlist/view/standalone/widget/tree/painter/delegate/treedelegate.cpp" line="500"/>
+        <source>%1 group(s)</source>
+        <translation>%1 ομάδα(ες)</translation>
+    </message>
+    <message>
+        <location filename="source/playlist/view/standalone/widget/tree/painter/delegate/treedelegate.cpp" line="503"/>
         <source>%1 channel(s)</source>
         <translation>%1 κανάλι(α)</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/painter/delegate/treedelegate.cpp" line="740"/>
+        <location filename="source/playlist/view/standalone/widget/tree/painter/delegate/treedelegate.cpp" line="764"/>
         <source>Updating...</source>
         <translation>Ενημέρωση...</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/painter/delegate/treedelegate.cpp" line="743"/>
+        <location filename="source/playlist/view/standalone/widget/tree/painter/delegate/treedelegate.cpp" line="767"/>
         <source>Loading...</source>
         <translation>Φόρτωση...</translation>
     </message>
@@ -4797,18 +4825,18 @@ Create new ?</source>
 <context>
     <name>Playlist::View::CTreePainter</name>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/painter/treepainter.cpp" line="580"/>
+        <location filename="source/playlist/view/standalone/widget/tree/painter/treepainter.cpp" line="582"/>
         <source>empty</source>
         <oldsource>Empty</oldsource>
         <translation>άδειο</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/painter/treepainter.cpp" line="582"/>
+        <location filename="source/playlist/view/standalone/widget/tree/painter/treepainter.cpp" line="584"/>
         <source>No favorite channels/media</source>
         <translation>Δεν υπάρχουν αγαπημένα κανάλια/πολυμέσα</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/painter/treepainter.cpp" line="582"/>
+        <location filename="source/playlist/view/standalone/widget/tree/painter/treepainter.cpp" line="584"/>
         <source>No channels/media</source>
         <translation>Χωρίς κανάλια/πολυμέσα</translation>
     </message>
@@ -4816,26 +4844,21 @@ Create new ?</source>
 <context>
     <name>Playlist::View::CTreeStandAlone</name>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="95"/>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="136"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="98"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="142"/>
         <source>New channel</source>
         <translation>Νέο κανάλι</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="113"/>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="137"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="116"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="143"/>
         <source>New group</source>
         <translation>Νέα ομάδα</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="141"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="147"/>
         <source>Move to group</source>
         <translation>Μετακίνηση σε ομάδα</translation>
-    </message>
-    <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="145"/>
-        <source>To the root</source>
-        <translation>Εκτός ομάδας</translation>
     </message>
     <message>
         <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="163"/>
@@ -4848,128 +4871,129 @@ Create new ?</source>
         <translation>Προσθήκη φακέλου</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="165"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="166"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="168"/>
         <source>Open folder</source>
         <translation>Άνοιγμα φακέλου</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="168"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="172"/>
         <source>Delete</source>
         <translation>Διαγραφή</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="169"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="173"/>
         <source>Delete all</source>
         <translation>Διαγραφή όλων</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="175"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="179"/>
         <source>Show current channel</source>
         <translation>Εμφάνιση τρέχοντος καναλιού</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="177"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="181"/>
         <source>Show empty groups</source>
         <oldsource>Show empty group</oldsource>
         <translation>Εμφάνιση κενών ομάδων</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="184"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="188"/>
         <source>Update EPG</source>
         <translation>Ενημέρωση προγράμματος</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="187"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="191"/>
         <source>Load playlist</source>
         <translation>Φόρτωση λίστας αναπαραγωγής</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="188"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="192"/>
         <source>Unload playlist</source>
         <translation>Αποθήκευση λίστας αναπαραγωγής</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="189"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="193"/>
         <source>Refresh playlist</source>
         <translation>Ανανέωση λίστας αναπαραγωγής</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="193"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="197"/>
         <source>Toolbar</source>
         <translation>Γραμμή εργαλείων</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="200"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="204"/>
         <source>Quick EPG</source>
         <translation>Γρήγορος οδηγός προγράμματος</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="203"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="207"/>
         <source>Miscellaneous</source>
         <translation>Διάφορα</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="206"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="210"/>
         <source>Filter by name</source>
         <translation>Φίλτρο κατά όνομα</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="207"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="211"/>
         <source>Delete filter</source>
         <translation>Διαγραφή φίλτρου</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="210"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="214"/>
         <source>Select all</source>
         <translation>Επιλογή όλων</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="215"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="219"/>
         <source>Additional</source>
         <translation>Πρόσθετα</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="228"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="232"/>
         <source>Sorting</source>
         <translation>Ταξινόμηση</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="233"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="237"/>
         <source>Save sorting for selected items</source>
         <translation>Αποθήκευση ταξινόμησης για τα επιλεγμένα κανάλια</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="239"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="243"/>
         <source>Sorting groups</source>
         <translation>Ομάδες ταξινόμησης</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="242"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="246"/>
         <source>Show address</source>
         <translation>Εμφάνιση διεύθυνσης</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="247"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="251"/>
         <source>Record</source>
         <translation>Εγγραφή</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="248"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="252"/>
         <source>Play in PiP</source>
         <translation>Αναπαραγωγή σε PiP</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="250"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="254"/>
         <source>Check selected channels</source>
         <translation>Ελεγχος επιλεγμένων καναλιών</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="251"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="255"/>
         <source>Surfing on selected channels</source>
         <translation>Περιήγηση σε επιλεγμένα κανάλια</translation>
     </message>
     <message>
-        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="253"/>
+        <location filename="source/playlist/view/standalone/widget/tree/treestandalone.cpp" line="257"/>
         <source>Clear last position</source>
         <translation>Απαλοιφή τελευταίας θέσης</translation>
     </message>
@@ -5481,9 +5505,9 @@ Create new ?</source>
     <message>
         <location filename="source/config/view/widgets/osd/configviewosd.h" line="41"/>
         <location filename="source/config/view/widgets/osd/configviewosd.h" line="48"/>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="77"/>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="84"/>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="105"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="95"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="102"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="123"/>
         <location filename="source/config/view/widgets/playback/configviewplayback.h" line="36"/>
         <location filename="source/config/view/widgets/playback/configviewplayback.h" line="43"/>
         <location filename="source/config/view/widgets/playback/watchdog/configviewplaybackwatchdog.h" line="50"/>
@@ -5603,8 +5627,8 @@ Create new ?</source>
     <message>
         <location filename="source/config/view/widgets/osd/configviewosd.h" line="120"/>
         <location filename="source/config/view/widgets/osd/configviewosd.h" line="121"/>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="147"/>
         <location filename="source/config/view/widgets/view/configviewplaylist.h" line="148"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="149"/>
         <source>Logo size</source>
         <translation>Μέγεθος λογότυπου</translation>
     </message>
@@ -5638,164 +5662,204 @@ Create new ?</source>
         <translation>Προβολή</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="41"/>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="42"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="39"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="40"/>
         <source>Delete data older than</source>
         <translation>Διαγραφή δεδομένων παλαιότερων από</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="44"/>
         <source>week(s)</source>
-        <translation>εβδομάδα(ες)</translation>
+        <translation type="vanished">εβδομάδα(ες)</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="49"/>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="50"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="46"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="47"/>
         <source>Qiuck load (DB will be cleared before loading)</source>
         <translation>Γρήγορη φόρτωση (Θα γινει εκκαθάριση της Βασης Δεδομενων πριν από τη φόρτωση)</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="55"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="52"/>
         <source>The minimum size of the DB file for vacuuming</source>
         <translation>Το ελάχιστο μέγεθος του αρχείου της βάσης δεδομένων για την εκκαθάριση</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="56"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="53"/>
         <source>The minimum size of the database file for auto vacuuming (0 - always)</source>
         <translation>Το ελάχιστο μέγεθος του αρχείου βάσης δεδομένων για την αυτόματη εκκαθάριση (0-πάντα)</translation>
     </message>
     <message>
         <location filename="source/config/view/widgets/osd/controlpanel/configviewosdcontrolpanel.h" line="36"/>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="106"/>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="93"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="47"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="56"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="124"/>
         <location filename="source/config/view/widgets/osd/singlepip/configviewosdsinglepip.h" line="76"/>
         <location filename="source/config/view/widgets/osd/previewpip/configviewosdpreviewpip.h" line="51"/>
         <location filename="source/config/view/widgets/system/screensaver/configsystemscreensaver.h" line="37"/>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="57"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="54"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="160"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="111"/>
         <source>always</source>
         <translation>πάντα</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="58"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="55"/>
         <source> Gb</source>
         <translation> Gb</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="64"/>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="65"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="61"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="62"/>
         <source>Asynchronous loading EPG</source>
         <translation>Ασύγχρονη φόρτωση EPG</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="70"/>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="71"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="67"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="68"/>
         <source>Preload DB</source>
         <translation>Προφόρτωση της βάσης δεδομένων</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="88"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="95"/>
         <source>Link EPG after loading</source>
         <oldsource>Always link EPG after loading</oldsource>
         <translation>Σύνδεση του προγράμματος EPG μετά τη φόρτωση</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="77"/>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="78"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="74"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="75"/>
         <source>Fuzzy search for EPG linking</source>
         <translation>Ασαφής αναζήτηση για αντιστοίχιση με EPG</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="26"/>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="28"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="25"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="27"/>
         <source>Additional EPG settings</source>
         <translation>Πρόσθετες ρυθμίσεις EPG</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="83"/>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="84"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="42"/>
+        <source>day(s)</source>
+        <translation>ημέρα(ες)</translation>
+    </message>
+    <message>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="80"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="81"/>
         <source>Use synonyms for channel names</source>
         <translation>Χρήση συνωνύμων για ονόματα καναλιών</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="89"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="85"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="86"/>
+        <source>Ignore channels without programme</source>
+        <translation>Αγνοήστε κανάλια χωρίς πρόγραμμα</translation>
+    </message>
+    <message>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="90"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="91"/>
+        <source>Remove channels without sources</source>
+        <translation>Αφαίρεση καναλιών χωρίς πηγές</translation>
+    </message>
+    <message>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="96"/>
         <source>Link EPG to channels after loading</source>
         <translation>Σύνδεση του προγράμματος EPG με τα κανάλια μετά τη φόρτωση</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="90"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="97"/>
         <source>always - auto</source>
         <translation>πάντα - αυτόματα</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="91"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="98"/>
+        <source>always - all</source>
+        <translation>πάντα - όλα</translation>
+    </message>
+    <message>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="99"/>
         <source>always - only empty</source>
         <translation>πάντα - μόνο άδειο</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="98"/>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="99"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="106"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="107"/>
         <source>Use the &apos;desc&apos; tag</source>
         <translation>Χρήση της ετικέτας &apos;desc&apos;</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="103"/>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="104"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="111"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="112"/>
         <source>Use the &apos;category&apos; tag</source>
         <translation>Χρήση της ετικέτας &apos;category&apos;</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="108"/>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="109"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="116"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="117"/>
         <source>Use the &apos;sub-title&apos; tag</source>
         <translation>Χρήση της ετικέτας &apos;sub-title&apos;</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="113"/>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="114"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="121"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="122"/>
         <source>Use the &apos;programme/icon&apos; tag</source>
         <translation>Χρήση της ετικέτας &apos;programme/icon&apos;</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="118"/>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="119"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="126"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="127"/>
         <source>Use the &apos;channel/icon&apos; tag</source>
         <translation>Χρήση της ετικέτας &apos;channel/icon&apos;</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="125"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="133"/>
         <source>Check http files for modifications</source>
         <translation>Ελεγχος αρχείων http για τροποποιήσεις</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="126"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="134"/>
         <source>Check http files for modifications before loading</source>
         <translation>Ελεγχος αρχείων http για τροποποιήσεις πριν από τη φόρτωση</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="130"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="138"/>
         <source>Use transaction in RAM</source>
         <translation>Χρήση συναλλαγής σε RAM</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="131"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="139"/>
         <source>Use transaction in RAM - more faster, but DB can be damaged in case of  insufficient memory, freezing, etc.</source>
         <translation>Χρήση συναλλαγής σε RAM - πιο γρήγορα, αλλά η DB μπορεί να καταστραφεί σε περίπτωση ανεπαρκούς μνήμης, πάγωματος κ.λπ.</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="138"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="146"/>
         <source>Show load progress info</source>
         <translation>Εμφάνιση πληροφοριών προόδου φόρτωσης</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="139"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="147"/>
         <source>Show load progress info on OSD</source>
         <translation>Εμφάνιση πληροφοριών προόδου φόρτωσης στο OSD</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="143"/>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="144"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="151"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="152"/>
         <source>HTTP user agent</source>
         <translation>HTTP user agent</translation>
+    </message>
+    <message>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="158"/>
+        <source>Use EPG from playlists</source>
+        <translation>Χρήση EPG από λίστες αναπαραγωγής</translation>
+    </message>
+    <message>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="159"/>
+        <source>Use url-tvg, tvg-id tags from m3u playlists</source>
+        <translation>Χρήση ετικετών url-tvg, tvg-id από λίστες αναπαραγωγής m3u</translation>
+    </message>
+    <message>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="161"/>
+        <source>only if the source with the same URL is present and enabled</source>
+        <oldsource>only if source with some URL present and enabled</oldsource>
+        <translation>μόνο εάν υπάρχει και είναι ενεργοποιημένη μια πηγή με την ίδια διεύθυνση URL</translation>
     </message>
     <message>
         <location filename="source/config/view/widgets/osd/controlpanel/configviewosdcontrolpanel.h" line="37"/>
@@ -5804,6 +5868,8 @@ Create new ?</source>
     </message>
     <message>
         <location filename="source/config/view/widgets/osd/controlpanel/configviewosdcontrolpanel.h" line="38"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="46"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="55"/>
         <source>in fullscreen</source>
         <translation>σε πλήρη οθόνη</translation>
     </message>
@@ -5822,15 +5888,15 @@ Create new ?</source>
     </message>
     <message>
         <location filename="source/config/view/widgets/osd/controlpanel/configviewosdcontrolpanel.h" line="46"/>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="51"/>
         <location filename="source/config/view/widgets/subtitle/configviewsubtitle.h" line="118"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="67"/>
         <source>top</source>
         <translation>επάνω</translation>
     </message>
     <message>
         <location filename="source/config/view/widgets/osd/controlpanel/configviewosdcontrolpanel.h" line="47"/>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="53"/>
         <location filename="source/config/view/widgets/subtitle/configviewsubtitle.h" line="119"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="69"/>
         <source>bottom</source>
         <translation>κάτω</translation>
     </message>
@@ -5842,7 +5908,6 @@ Create new ?</source>
     </message>
     <message>
         <location filename="source/config/view/widgets/osd/controlpanel/configviewosdcontrolpanel.h" line="54"/>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="91"/>
         <location filename="source/config/view/widgets/osd/singlepip/configviewosdsinglepip.h" line="74"/>
         <location filename="source/config/view/widgets/osd/previewpip/configviewosdpreviewpip.h" line="49"/>
         <location filename="source/config/view/widgets/playback/configviewplayback.h" line="67"/>
@@ -5852,7 +5917,8 @@ Create new ?</source>
         <location filename="source/config/view/widgets/video/decoders/avcodec/configviewvideodecodersavcodec.h" line="65"/>
         <location filename="source/config/view/widgets/view/configviewwallpaper.h" line="32"/>
         <location filename="source/player/infos/desc/playerdesc.h" line="115"/>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="43"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="41"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="109"/>
         <location filename="source/mainmenu/helpers/mainmenuhelpers.cpp" line="84"/>
         <location filename="source/mainmenu/helpers/mainmenuhelpers.cpp" line="455"/>
         <location filename="source/mainmenu/helpers/mainmenuhelpers.cpp" line="472"/>
@@ -5865,7 +5931,7 @@ Create new ?</source>
         <location filename="source/player/players/vlc/platfroms/mswindows/playervlcinstanceconfig_win.cpp" line="92"/>
         <location filename="source/player/players/vlc/platfroms/mswindows/playervlcinstanceconfig_win.cpp" line="94"/>
         <location filename="source/playlist/model/bookmark/playlist_bookmarkmodel.cpp" line="73"/>
-        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="285"/>
+        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="341"/>
         <source>none</source>
         <translation>καθόλου</translation>
     </message>
@@ -5934,106 +6000,126 @@ Create new ?</source>
         <translation>πίνακας ελέγχου</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="44"/>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="45"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="42"/>
+        <source>Show playlist when moving the mouse to the edges of the screen</source>
+        <translation>Εμφάνιση λίστας αναπαραγωγής όταν μετακινείτε το ποντίκι στις άκρες της οθόνης</translation>
+    </message>
+    <message>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="43"/>
+        <source>Show playlist when moving the mouse to the left/right edges of the screen</source>
+        <translation>Εμφάνιση λίστας αναπαραγωγής όταν μετακινείτε το ποντίκι στα αριστερά/δεξιά άκρα της οθόνης</translation>
+    </message>
+    <message>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="51"/>
+        <source>Show controls window when moving the mouse to the edges of the screen</source>
+        <translation>Εμφάνιση παραθύρου ελέγχου όταν μετακινείτε το ποντίκι στις άκρες της οθόνης</translation>
+    </message>
+    <message>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="52"/>
+        <source>Show controls window when moving the mouse to the left/right edges of the screen</source>
+        <translation>Εμφάνιση παραθύρου ελέγχου όταν μετακινείτε το ποντίκι στα αριστερά/δεξιά άκρα της οθόνης</translation>
+    </message>
+    <message>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="62"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="63"/>
         <source>Hide the playlist after selecting</source>
         <translation>Απόκρυψη της λίστας μετά την επιλογή</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="50"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="68"/>
         <source>Hide the EPG after selecting</source>
         <oldsource>Hide the EPG after new play</oldsource>
         <translation>Απόκρυψη του EPG μετά την επιλογή</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="51"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="69"/>
         <source>Hide the EPG window after selecting item in the playlist</source>
         <oldsource>Hide the EPG window after new play started</oldsource>
         <translation>Απόκρυψη του παραθύρου EPG μετά την επιλογή στοιχείου στη λίστα αναπαραγωγής</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="58"/>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="59"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="76"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="77"/>
         <source>Scale video to a playlist</source>
         <translation>Κλιμάκωση βίντεο σε μια λίστα</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="64"/>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="65"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="82"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="83"/>
         <source>Offset</source>
         <translation>Απόκλιση</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="67"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="85"/>
         <source>pt</source>
         <translation>pt</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="74"/>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="75"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="92"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="93"/>
         <source>Time of showing &apos;DRM&apos;</source>
         <translation>Χρόνος εμφάνισης &apos;DRM&apos;</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="81"/>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="82"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="99"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="100"/>
         <source>Time of showing the number</source>
         <translation>Χρόνος εμφάνισης του αριθμού</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="85"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="103"/>
         <source>default</source>
         <comment>confViewOsdExt</comment>
         <translation>προεπιλογή</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="89"/>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="90"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="107"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="108"/>
         <source>Change menu font in fullscreen</source>
         <translation>Αλλαγή γραμματοσειράς μενού σε πλήρη οθόνη</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="97"/>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="98"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="115"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="116"/>
         <source>Show EPG description as OSD window</source>
         <translation>Εμφάνιση περιγραφής EPG ως παράθυρο OSD</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="102"/>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="103"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="120"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="121"/>
         <source>EPG description window display time</source>
         <translation>Διάρκεια εμφάνισης παραθύρου περιγραφής EPG</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="112"/>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="113"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="130"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="131"/>
         <source>Info panel - show always when pause</source>
         <translation>Πίνακας πληροφοριών - εμφάνιση πάντα κατά την παύση</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="118"/>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="119"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="136"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="137"/>
         <source>Info panel - show always when high rate</source>
         <translation>Πίνακας πληροφοριών - εμφάνιση πάντα όταν ο ρυθμός είναι υψηλός</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="124"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="142"/>
         <source>Info panel - enable EPG navigation</source>
         <translation>Πίνακας πληροφοριών - ενεργοποίηση πλοήγησης στο EPG</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="125"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="143"/>
         <source>Enable EPG navigation if the channel has a timeshift</source>
         <oldsource>Enable EPG navigation while timeshift</oldsource>
         <translation>Ενεργοποίηση πλοήγησης στο πρόγραμμα EPG εάν το κανάλι έχει χρονική μετατόπιση</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="21"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="10"/>
         <source>Multi PiP</source>
         <translation>Multi PiP</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="23"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="12"/>
         <source>Multi PiP settings</source>
         <translation>Ρυθμίσεις Multi PiP</translation>
     </message>
@@ -6074,93 +6160,93 @@ Create new ?</source>
         <translation>Αριθμός παραθύρων</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="40"/>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="41"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="57"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="58"/>
         <source>Max. window size</source>
         <translation>Μέγιστο. μέγεθος παραθύρου</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="57"/>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="58"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="75"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="76"/>
         <source>Top margin</source>
         <translation>Επάνω περιθώριο</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="63"/>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="64"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="81"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="82"/>
         <source>Bottom margin</source>
         <translation>Κάτω περιθώριο</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="72"/>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="73"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="90"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="91"/>
         <source>Deinterlace</source>
         <translation>Αποδιαπλοκή</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="79"/>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="80"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="97"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="98"/>
         <source>Deinterlace for auto</source>
         <translation>Για αυτόματη αποδιαπλοκή</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="88"/>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="89"/>
         <location filename="source/config/view/widgets/osd/singlepip/configviewosdsinglepip.h" line="71"/>
         <location filename="source/config/view/widgets/osd/singlepip/configviewosdsinglepip.h" line="72"/>
         <location filename="source/config/view/widgets/osd/previewpip/configviewosdpreviewpip.h" line="46"/>
         <location filename="source/config/view/widgets/osd/previewpip/configviewosdpreviewpip.h" line="47"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="106"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="107"/>
         <source>Show name</source>
         <translation>Εμφάνιση ονόματος</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="92"/>
         <location filename="source/config/view/widgets/osd/singlepip/configviewosdsinglepip.h" line="75"/>
         <location filename="source/config/view/widgets/osd/previewpip/configviewosdpreviewpip.h" line="50"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="110"/>
         <source>depends on the size</source>
         <translation>εξαρτάται από το μέγεθος</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="97"/>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="98"/>
         <location filename="source/config/view/widgets/osd/singlepip/configviewosdsinglepip.h" line="65"/>
         <location filename="source/config/view/widgets/osd/singlepip/configviewosdsinglepip.h" line="66"/>
         <location filename="source/config/view/widgets/osd/previewpip/configviewosdpreviewpip.h" line="40"/>
         <location filename="source/config/view/widgets/osd/previewpip/configviewosdpreviewpip.h" line="41"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="115"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="116"/>
         <location filename="source/mainmenu/misc/miscmenu.cpp" line="22"/>
         <source>Show EPG</source>
         <translation>Προβολή προγράμματος</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="103"/>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="104"/>
         <location filename="source/config/view/widgets/osd/singlepip/configviewosdsinglepip.h" line="80"/>
         <location filename="source/config/view/widgets/osd/singlepip/configviewosdsinglepip.h" line="81"/>
         <location filename="source/config/view/widgets/osd/previewpip/configviewosdpreviewpip.h" line="55"/>
         <location filename="source/config/view/widgets/osd/previewpip/configviewosdpreviewpip.h" line="56"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="121"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="122"/>
         <source>Animation</source>
         <translation>Κίνηση</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="109"/>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="110"/>
         <location filename="source/config/view/widgets/osd/singlepip/configviewosdsinglepip.h" line="87"/>
         <location filename="source/config/view/widgets/osd/singlepip/configviewosdsinglepip.h" line="88"/>
         <location filename="source/config/view/widgets/osd/previewpip/configviewosdpreviewpip.h" line="63"/>
         <location filename="source/config/view/widgets/osd/previewpip/configviewosdpreviewpip.h" line="64"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="127"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="128"/>
         <source>Use the address MPiP/PiP</source>
         <translation>Χρήση της διεύθυνσης MPiP/PiP</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="115"/>
         <location filename="source/config/view/widgets/osd/singlepip/configviewosdsinglepip.h" line="93"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="133"/>
         <source>Use single mouse click</source>
         <oldsource>Use the left mouse click</oldsource>
         <translation>Χρήση ενός μόνο κλικ</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="116"/>
         <location filename="source/config/view/widgets/osd/singlepip/configviewosdsinglepip.h" line="94"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="134"/>
         <source>Use single mouse click to play</source>
         <oldsource>Use single mouse click for play</oldsource>
         <translation>Χρήση ενός μόνο κλικ για αναπαραγωγή</translation>
@@ -6862,8 +6948,8 @@ Create new ?</source>
         <translation>αριστερά</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="52"/>
         <location filename="source/config/view/widgets/subtitle/configviewsubtitle.h" line="110"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="68"/>
         <source>center</source>
         <translation>κέντρο</translation>
     </message>
@@ -6873,10 +6959,10 @@ Create new ?</source>
         <translation>δεξιά</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="48"/>
-        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.h" line="49"/>
         <location filename="source/config/view/widgets/subtitle/configviewsubtitle.h" line="115"/>
         <location filename="source/config/view/widgets/subtitle/configviewsubtitle.h" line="116"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="64"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="65"/>
         <source>Vertical alignment</source>
         <translation>Κατακόρυφη στοίχιση</translation>
     </message>
@@ -7264,6 +7350,7 @@ Create new ?</source>
     </message>
     <message>
         <location filename="source/config/view/widgets/timeshift/configtimeshiftveiw.h" line="114"/>
+        <location filename="source/config/view/widgets/osd/multipip/configviewosdmultipip.cpp" line="47"/>
         <source>nothing...</source>
         <translation>τίποτα...</translation>
     </message>
@@ -7606,118 +7693,118 @@ Faster but error-prone.</source>
         <translation>directx - ενδιάμεση μνήμη βίντεο στη μνήμη συστήματος</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="21"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="22"/>
         <source>Playlist</source>
         <translation>Λίστα</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="23"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="24"/>
         <source>Playlist settings</source>
         <translation>Ρυθμίσεις λίστας αναπαραγωγής</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="33"/>
         <location filename="source/config/view/widgets/view/configviewplaylist.h" line="34"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="35"/>
         <source>Playlist is always on top of the main window</source>
         <translation>Η λίστα αναπαραγωγής είναι πάντα στην κορυφή του κύριου παραθύρου</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="39"/>
         <location filename="source/config/view/widgets/view/configviewplaylist.h" line="40"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="41"/>
         <source>Favorite channels - ignore advanced filter</source>
         <translation>Αγαπημένα κανάλια - παράβλεψη σύνθετου φίλτρου</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="45"/>
         <location filename="source/config/view/widgets/view/configviewplaylist.h" line="46"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="47"/>
         <source>Favorite channels - show group</source>
         <translation>Αγαπημένα κανάλια - εμφάνιση ομάδας</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="51"/>
         <location filename="source/config/view/widgets/view/configviewplaylist.h" line="52"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="53"/>
         <source>Show advanced filter</source>
         <translation>Εμφάνιση σύνθετων φίλτρων</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="57"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="58"/>
         <source>Use separate settings for media tabs</source>
         <translation>Χρήση ξεχωριστών ρυθμίσεων για καρτέλες πολυμέσων</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="58"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="59"/>
         <source>Settings &apos;show address&apos;,&apos;sorting mode&apos; and other will keep separately for Channels, Files and other tabs</source>
         <translation>Οι ρυθμίσεις &apos;Εμφάνιση διεύθυνσης&apos;, &apos;λειτουργία ταξινόμησης&apos; και άλλες θα διατηρήσουν ξεχωριστά για τα κανάλια, τα αρχεία και άλλες καρτέλες</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="65"/>
         <location filename="source/config/view/widgets/view/configviewplaylist.h" line="66"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="67"/>
         <source>Switching the channel by one click</source>
         <translation>Αλλαγή καναλιού με ένα κλικ</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="71"/>
         <location filename="source/config/view/widgets/view/configviewplaylist.h" line="72"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="73"/>
         <source>Expand/collapse the group by one click</source>
         <translation>Ανάπτυξη/σύμπτυξη της ομάδας με ένα κλικ</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="77"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="78"/>
         <source>Circular cursor scrolling</source>
         <translation>Κύλιση δρομέα με την ροδελα</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="78"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="79"/>
         <source>Scrolling the cursor from the end to start</source>
         <translation>Κύλιση του δρομέα από το τέλος στην αρχή</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="83"/>
         <location filename="source/config/view/widgets/view/configviewplaylist.h" line="84"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="85"/>
         <source>The cursor follows the mouse</source>
         <translation>Ο δρομέας ακολουθεί το ποντίκι</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="90"/>
         <location filename="source/config/view/widgets/view/configviewplaylist.h" line="91"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="92"/>
         <source>Show EPG on mouse hover</source>
         <translation>Εμφάνιση EPG όταν τοποθετείτε το δείκτη του ποντικιού επάνω</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="96"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="97"/>
         <source>Show EPG on current item changes</source>
         <translation>Εμφάνιση EPG σε τρέχουσες αλλαγές</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="97"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="98"/>
         <source>Show EPG on current item changes</source>
         <comment>tooltip</comment>
         <translation>Εμφάνιση EPG σε τρέχουσες αλλαγές</translation>
-    </message>
-    <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="102"/>
-        <source>Show EPG on clicked</source>
-        <translation>Εμφάνιση του EPG μετά τo κλικ</translation>
     </message>
     <message>
         <location filename="source/config/view/widgets/view/configviewplaylist.h" line="103"/>
         <source>Show EPG on clicked</source>
+        <translation>Εμφάνιση του EPG μετά τo κλικ</translation>
+    </message>
+    <message>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="104"/>
+        <source>Show EPG on clicked</source>
         <comment>tooltip</comment>
         <translation>Εμφάνιση του EPG μετά τo κλικ</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="108"/>
         <location filename="source/config/view/widgets/view/configviewplaylist.h" line="109"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="110"/>
         <source>Block buttons when size lock mode</source>
         <translation>Κλείδωμα κουμπιών σε λειτουργία κλειδώματος μεγέθους</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="116"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="117"/>
         <source>Acceleration of mouse wheel</source>
         <translation>Επιτάχυνση του τροχού του ποντικιού</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="117"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="118"/>
         <source>number of row per one click
 -1 - default
 0  - auto</source>
@@ -7726,49 +7813,55 @@ Faster but error-prone.</source>
 0  - αυτόματο</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="119"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="120"/>
         <source>default</source>
         <comment>confViewPls</comment>
         <translation>προεπιλογή</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="125"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="126"/>
         <source>Remember last cursor position</source>
         <translation>Απομνημόνευση τελευταίας θέσης δρομέα</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="126"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="127"/>
         <source>Remember last cursor position</source>
         <comment>tooltip</comment>
         <translation>Απομνημόνευση τελευταίας θέσης δρομέα</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="133"/>
         <location filename="source/config/view/widgets/view/configviewplaylist.h" line="134"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="135"/>
         <source>Playlist font</source>
         <translation>Γραμματοσειρά λίστας αναπαραγωγής</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="139"/>
         <location filename="source/config/view/widgets/view/configviewplaylist.h" line="140"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="141"/>
         <source>Epg font</source>
         <translation>Γραμματοσειρά οδηγού προγράμματος</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="153"/>
         <location filename="source/config/view/widgets/view/configviewplaylist.h" line="154"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="155"/>
+        <source>Fuzzy search for channels logos</source>
+        <translation>Ασαφής αναζήτηση για λογότυπα καναλιών</translation>
+    </message>
+    <message>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="160"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="161"/>
         <source>Keep logo aspect ratio</source>
         <translation>Διατήρηση αναλογίας διαστάσεων λογότυπου</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="159"/>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="160"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="166"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="167"/>
         <source>Asynchronous loading logo</source>
         <translation>Ασύγχρονη φόρτωση λογότυπου</translation>
     </message>
     <message>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="167"/>
-        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="168"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="174"/>
+        <location filename="source/config/view/widgets/view/configviewplaylist.h" line="175"/>
         <source>Path to folder of logos</source>
         <translation>Διαδρομή προς το φάκελο των λογοτύπων</translation>
     </message>
@@ -8043,6 +8136,7 @@ Faster but error-prone.</source>
         <translation>Προβολή χρονοδιαγράμματος</translation>
     </message>
     <message>
+        <location filename="source/playlist/view/standalone/widget/extfilter/extfilter.cpp" line="191"/>
         <location filename="source/epg/listhelper/epglisthelper.cpp" line="489"/>
         <source>Additional</source>
         <translation>Πρόσθετα</translation>
@@ -8486,12 +8580,12 @@ Faster but error-prone.</source>
         <translation>Άκυρο</translation>
     </message>
     <message>
-        <location filename="source/playlist/load/m3u/loadm3uplaylist.cpp" line="444"/>
+        <location filename="source/playlist/load/m3u/loadm3uplaylist.cpp" line="456"/>
         <source>Not m3u file</source>
         <translation>Δεν είναι αρχείο m3u</translation>
     </message>
     <message>
-        <location filename="source/playlist/load/m3u/loadm3uplaylist.cpp" line="539"/>
+        <location filename="source/playlist/load/m3u/loadm3uplaylist.cpp" line="563"/>
         <source>Canceled</source>
         <translation>Ακυρώθηκε</translation>
     </message>
@@ -8548,58 +8642,58 @@ Added %2 channel(s), updated %3 channel(s)</source>
         <translation>Λίστες αναπαραγωγής</translation>
     </message>
     <message>
-        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="245"/>
+        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="290"/>
         <source>Mo</source>
         <translation>Δε</translation>
     </message>
     <message>
-        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="248"/>
+        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="293"/>
         <source>Tu</source>
         <translation>Τρ</translation>
     </message>
     <message>
-        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="251"/>
+        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="296"/>
         <source>We</source>
         <translation>Τε</translation>
     </message>
     <message>
-        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="254"/>
+        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="299"/>
         <source>Th</source>
         <translation>Πέ</translation>
     </message>
     <message>
-        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="257"/>
+        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="302"/>
         <source>Fr</source>
         <translation>Πα</translation>
     </message>
     <message>
-        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="260"/>
+        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="305"/>
         <source>Sa</source>
         <translation>Σά</translation>
     </message>
     <message>
-        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="241"/>
-        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="265"/>
+        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="286"/>
+        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="310"/>
         <source>Su</source>
         <translation>Κυ</translation>
     </message>
     <message>
-        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="375"/>
+        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="433"/>
         <source>Continue</source>
         <translation>Συνέχεια</translation>
     </message>
     <message>
-        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="380"/>
+        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="438"/>
         <source>Pause</source>
         <translation>Παύση</translation>
     </message>
     <message>
-        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="390"/>
+        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="448"/>
         <source>Copy</source>
         <translation>Αντιγραφή</translation>
     </message>
     <message>
-        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="394"/>
+        <location filename="source/scheduler/view/schedulerviewtreehelper.cpp" line="452"/>
         <source>Delete</source>
         <translation>Διαγραφή</translation>
     </message>
@@ -8630,8 +8724,11 @@ Added %2 channel(s), updated %3 channel(s)</source>
         <translation>μόνο κατά την αναπαραγωγή βίντεο</translation>
     </message>
     <message>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="45"/>
+        <location filename="source/config/view/widgets/osd/ext/configviewosdext.h" line="54"/>
         <location filename="source/config/view/widgets/system/screensaver/configsystemscreensaver.h" line="40"/>
-        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="92"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="100"/>
+        <location filename="source/config/view/widgets/epg/configepgpreferences.cpp" line="162"/>
         <source>never</source>
         <translation>ποτέ</translation>
     </message>
@@ -8788,19 +8885,19 @@ Added %2 channel(s), updated %3 channel(s)</source>
     </message>
     <message>
         <location filename="source/misc/xml/xmlabstract.cpp" line="201"/>
-        <location filename="source/epg/updater/xml/epgtvxmlreader.cpp" line="164"/>
-        <location filename="source/epg/updater/xml/epgtvxmlreader.cpp" line="185"/>
+        <location filename="source/epg/updater/xml/epgtvxmlreader.cpp" line="182"/>
+        <location filename="source/epg/updater/xml/epgtvxmlreader.cpp" line="203"/>
         <source>no memory</source>
         <translation>χωρίς μνήμη</translation>
     </message>
     <message>
-        <location filename="source/epg/updater/epgupdater.cpp" line="321"/>
+        <location filename="source/epg/updater/epgupdater.cpp" line="425"/>
         <source>the downloaded file does not look like an EPG data or archive</source>
         <oldsource>the downloaded file does not look like an EPG file</oldsource>
         <translation>Το ληφθέν αρχείο δεν μοιάζει με δεδομένα EPG ή αρχείο</translation>
     </message>
     <message>
-        <location filename="source/epg/updater/epgupdater.cpp" line="335"/>
+        <location filename="source/epg/updater/epgupdater.cpp" line="439"/>
         <source>unknown extract error</source>
         <translation>άγνωστο σφάλμα εξαγωγής</translation>
     </message>
@@ -8811,7 +8908,7 @@ Added %2 channel(s), updated %3 channel(s)</source>
         <translation>db κατεστραμμένη</translation>
     </message>
     <message>
-        <location filename="source/epg/updater/xml/epgupdaterxml.cpp" line="48"/>
+        <location filename="source/epg/updater/xml/epgupdaterxml.cpp" line="49"/>
         <source>no programme nodes</source>
         <translation>χωρίς κόμβους προγράμματος</translation>
     </message>
@@ -8821,7 +8918,6 @@ Added %2 channel(s), updated %3 channel(s)</source>
         <translation>ζωντανά</translation>
     </message>
     <message>
-        <location filename="source/theapp/arg/arg.cpp" line="50"/>
         <source>-help - show this message
 
 -close - close the application
@@ -8842,7 +8938,7 @@ Added %2 channel(s), updated %3 channel(s)</source>
 -qtsoftwareopengl
 -vlcconsole - open VLC console
 -simpleTVConsole  - open messages window</source>
-        <translation>-help - εμφάνιση αυτού του μηνύματος
+        <translation type="vanished">-help - εμφάνιση αυτού του μηνύματος
 
 -close - κλείσιμο της εφαρμογής
 -closeall - διακοπή όλων των εγγραφών και κλείσιμο όλων των παρουσιών της εφαρμογής
@@ -8933,6 +9029,55 @@ Added %2 channel(s), updated %3 channel(s)</source>
         <location filename="source/config/view/widgets/view/configviewthumbnail.h" line="89"/>
         <source>Clear thumbnails cache</source>
         <translation>Εκκαθάριση προσωρινής μνήμης μικρογραφιών</translation>
+    </message>
+    <message>
+        <location filename="source/theapp/arg/arg.cpp" line="49"/>
+        <source>-help - show this message
+
+-close - close the application
+-closeall - stop all records and close all instances of the application
+
+-execute luastring - execute lua script(luastring)
+
+-open uri
+-title string - title of channel for &apos;open&apos;
+
+-traymode - move in System tray after start
+-fullscreen - run in fullscreen mode
+
+-nooneinstance - run more then one instance of application
+-awaymode - don&apos;t create IPC server, this instance will be &apos;invisible&apos; for another
+-workpath path - path to the worker folder
+-compactdb - compact/repair database
+-qtsoftwareopengl
+-simpleTVConsole  - open messages window</source>
+        <translation>-help - εμφανίζει αυτό το μήνυμα
+
+-close - κλείνει την εφαρμογή
+-closeall - διακοπή όλων των εγγραφών και κλείσιμο όλων των παρουσιών της εφαρμογής
+
+-execute luastring - εκτέλεση σεναρίου lua(luastring)
+
+-open uri
+-title string - τίτλος του καναλιού για το &apos;open&apos;
+
+-traymode - μετακίνηση στην περιοχή ειδοποιήσεων μετά την εκκίνηση
+-fullscreen - εκτέλεση σε λειτουργία πλήρους οθόνης
+
+-nooneinstance - εκτέλεση σε λειτουργία πλήρους οθόνης
+-awaymode - μην δημιουργείτε διακομιστή IPC, αυτή η παρουσία θα είναι &quot;αόρατη&quot; για άλλη
+-workpath path - διαδρομή προς το φάκελο work
+-compactdb - συμπίεση/επισκευή βάσης δεδομένων
+-qtsoftwareopengl
+-simpleTVConsole  - άνοιγμα παραθύρου μηνυμάτων</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <location filename="source/playlist/model/tree/playlist_treeitem.cpp" line="354"/>
+        <source>To the root</source>
+        <translation>Εκτός ομάδας</translation>
     </message>
 </context>
 <context>
@@ -9160,22 +9305,22 @@ Added %2 channel(s), updated %3 channel(s)</source>
         <translation>EPG</translation>
     </message>
     <message>
-        <location filename="source/scheduler/view/schedulerstandaloneview.cpp" line="379"/>
+        <location filename="source/scheduler/view/schedulerstandaloneview.cpp" line="385"/>
         <source>Choose the duration</source>
         <translation>Επιλέξτε τη διάρκεια</translation>
     </message>
     <message>
-        <location filename="source/scheduler/view/schedulerstandaloneview.cpp" line="385"/>
+        <location filename="source/scheduler/view/schedulerstandaloneview.cpp" line="391"/>
         <source>Choose the channel</source>
         <translation>Επιλέξτε το κανάλι</translation>
     </message>
     <message>
-        <location filename="source/scheduler/view/schedulerstandaloneview.cpp" line="572"/>
+        <location filename="source/scheduler/view/schedulerstandaloneview.cpp" line="578"/>
         <source>Delete selected?</source>
         <translation>Διαγραφή επιλεγμένων;</translation>
     </message>
     <message>
-        <location filename="source/scheduler/view/schedulerstandaloneview.cpp" line="703"/>
+        <location filename="source/scheduler/view/schedulerstandaloneview.cpp" line="710"/>
         <source>New</source>
         <translation>Νέο</translation>
     </message>
@@ -9203,27 +9348,27 @@ Use &apos;base&apos; skin or update current.</source>
 <context>
     <name>Skin::Widget::CControlPanelBase</name>
     <message>
-        <location filename="source/skin/widgets/windows/controlpanel/controlpanelbase.cpp" line="998"/>
+        <location filename="source/skin/widgets/windows/controlpanel/controlpanelbase.cpp" line="1012"/>
         <source>m</source>
         <translation>λ</translation>
     </message>
     <message>
-        <location filename="source/skin/widgets/windows/controlpanel/controlpanelbase.cpp" line="1002"/>
+        <location filename="source/skin/widgets/windows/controlpanel/controlpanelbase.cpp" line="1016"/>
         <source>h</source>
         <translation>ω</translation>
     </message>
     <message>
-        <location filename="source/skin/widgets/windows/controlpanel/controlpanelbase.cpp" line="1028"/>
+        <location filename="source/skin/widgets/windows/controlpanel/controlpanelbase.cpp" line="1042"/>
         <source>buffering</source>
         <translation>buffering</translation>
     </message>
     <message>
-        <location filename="source/skin/widgets/windows/controlpanel/controlpanelbase.cpp" line="1116"/>
+        <location filename="source/skin/widgets/windows/controlpanel/controlpanelbase.cpp" line="1130"/>
         <source>epg updating...</source>
         <translation>ενημέρωση οδηγού προγράμματος...</translation>
     </message>
     <message>
-        <location filename="source/skin/widgets/windows/controlpanel/controlpanelbase.cpp" line="1119"/>
+        <location filename="source/skin/widgets/windows/controlpanel/controlpanelbase.cpp" line="1133"/>
         <source>epg loading...</source>
         <translation>φόρτωση οδηγού προγράμματος...</translation>
     </message>
@@ -9427,7 +9572,7 @@ Use &apos;base&apos; skin or update current.</source>
 <context>
     <name>Tools::Scanner::CScannerCore</name>
     <message>
-        <location filename="source/tools/scanner/scannercore.cpp" line="251"/>
+        <location filename="source/tools/scanner/scannercore.cpp" line="252"/>
         <source>channel</source>
         <translation>κανάλι</translation>
     </message>
@@ -9435,67 +9580,67 @@ Use &apos;base&apos; skin or update current.</source>
 <context>
     <name>Tools::Scanner::View::CScannerView</name>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="94"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="95"/>
         <source> - scanner</source>
         <translation> - σαρωτής</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="116"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="117"/>
         <source>Test  connect</source>
         <translation>Δοκιμή  σύνδεσης</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="117"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="118"/>
         <source>Found stream</source>
         <translation>Βρέθηκε ροή</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="118"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="119"/>
         <source>Found audio</source>
         <translation>Βρέθηκε ήχος</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="119"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="120"/>
         <source>Found audio/video</source>
         <translation>Βρέθηκε ηχος/βίντεο</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="122"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="123"/>
         <source>Address</source>
         <translation>Διεύθυνση</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="122"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="123"/>
         <source>Video size</source>
         <translation>Μέγεθος βίντεο</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="122"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="123"/>
         <source>Name from DB</source>
         <translation>Ονομα από DB</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="122"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="123"/>
         <source>Flags</source>
         <translation>Σημαίες</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="122"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="123"/>
         <source>Name from stream</source>
         <translation>Ονομα από ροή</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="122"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="123"/>
         <source>Publisher</source>
         <translation>Εκδότης</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="122"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="123"/>
         <source>Display name</source>
         <translation>Εμφάνιση ονόματος</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="124"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="125"/>
         <source>E - error
 T - timeout
 S - stream found
@@ -9510,77 +9655,77 @@ V - βρέθηκε vout
 D - βρέθηκε drm</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="126"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="127"/>
         <source>New channels/media</source>
         <translation>Νέα κανάλια/πολυμέσα</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="128"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="129"/>
         <source>Channels already in the database</source>
         <translation>Κανάλια που βρίσκονται ήδη στη βάση δεδομένων</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="130"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="131"/>
         <source>Channels MultiPiP</source>
         <translation>Κανάλια MultiPiP</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="132"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="133"/>
         <source>Not responding channels(present in DB)</source>
         <translation>Κανάλια που δεν ανταποκρίθηκαν(υπάρχουν στη DB)</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="134"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="135"/>
         <source>Not responding channels(not present in DB)</source>
         <translation>Κανάλια που δεν ανταποκρίθηκαν(δεν υπάρχουν στη DB)</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="136"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="137"/>
         <source>DRM</source>
         <translation>DRM</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="156"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="157"/>
         <source>no use script</source>
         <translation>χωρίς χρήση script</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="345"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="346"/>
         <source>Resume</source>
         <translation>Συνέχεια</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="347"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="348"/>
         <source>Pause</source>
         <translation>Παύση</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="405"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="406"/>
         <source>Scan</source>
         <translation>Σάρωση</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="408"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="409"/>
         <source>All scanned %1,response %2</source>
         <translation>Όλα τα σαρωμένα %1,με απόκριση %2</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="719"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="720"/>
         <source>%1 channels deleted</source>
         <translation>%1 κανάλια διαγράφηκαν</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="766"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="783"/>
         <source>Scanned channels</source>
         <translation>Σαρωμένα κανάλια</translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="824"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="841"/>
         <source>%1 channel(s) added in group - </source>
         <translation>%1 κανάλι(α) προστέθηκε(αν) στην ομάδα - </translation>
     </message>
     <message>
-        <location filename="source/tools/scanner/view/scannerview.cpp" line="826"/>
+        <location filename="source/tools/scanner/view/scannerview.cpp" line="843"/>
         <source>
 %1 item(s) skipped</source>
         <translation>
