@@ -3106,12 +3106,12 @@ To restore the default, double-click the right mouse button</source>
     <message>
         <location filename="source/misc/db/basedb.cpp" line="23"/>
         <source>database vacuuming. wait... </source>
-        <translation>κενή βάση δεδομένων. περιμένετε... </translation>
+        <translation>σκούπισμα βάση δεδομένων. περιμένετε... </translation>
     </message>
     <message>
         <location filename="source/misc/db/basedb.cpp" line="56"/>
         <source>database preloading. wait... </source>
-        <translation>προφόρτωση βάσης δεδομένων. Περίμενε... </translation>
+        <translation>προφόρτωση βάσης δεδομένων. περιμένετε... </translation>
     </message>
 </context>
 <context>
