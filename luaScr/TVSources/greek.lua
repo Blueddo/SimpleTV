@@ -211,5 +211,7 @@ TVSources_lng.html_idImport  = "Εισαγωγή"
 TVSources_lng.src_m3u_typeUseGr= "ίσως σε διαφορετικές ομάδες"
 
 TVSources_lng.src_m3u_epg = 'Αυτόματη αναζήτηση για τηλεοπτικό πρόγραμμα'
+TVSources_lng.src_m3u_tvgid = 'Χρήση της ετικέτας tvg-id'
+
 TVSources_lng.src_m3u_logo = 'Αυτόματη αναζήτηση λογότυπου καναλιού'
-TVSources_lng.src_m3u_logo_localonly = 'Χρήση μόνο τοπικών λογότυπων'
+TVSources_lng.src_m3u_logo_localonly = 'Χρήση μόνο τοπικά λογότυπα'
